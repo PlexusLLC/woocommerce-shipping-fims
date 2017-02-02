@@ -1,0 +1,277 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce FIMS Shipping\n"
+"POT-Creation-Date: 2017-02-02 10:06-0600\n"
+"PO-Revision-Date: 2017-02-02 10:06-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-shipping-fims.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-shipping-fims.php:13
+#: includes/class-wc-shipping-fims.php:101
+msgid "FIMS"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:14
+msgid ""
+"The FIMS extension calculates rates for FedEx International Mail Service "
+"dynamically during cart/checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:93
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:98
+msgid "Method Title"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:100
+msgid "This is the method title only seen in the admin area."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:105
+msgid "Rate Label"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:107
+msgid "This controls the rate label which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:108
+msgid "FedEx International Mail Service"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:112
+msgid "FIMS Rate ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:114
+msgid "The FIMS rate you pay per pound."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:119
+msgid "Apply Rate"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:125
+msgid "Per 1/10 lb. (recommended)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:126
+msgid "Per whole lb"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:128
+msgid ""
+"Choose whether to apply rate at whole pounds (rounded up nearest) or 1/10 "
+"rate per each 1/10 pound."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:131
+msgid "Minimum / Maximum"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:133
+msgid "Limit FIMS rate to no more and no less than the following:"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:136
+msgid "Minimum ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:138
+msgid "Minimum FIMS rate in USD. Leave blank for no lower limit."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:143
+msgid "Maximum ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:145
+msgid "Maximum FIMS rate in USD. Leave blank for no upper limit."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:150
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:152
+#, php-format
+msgid ""
+"All the options below are available in the %sPREMIUM version of this plugin"
+"%s."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:155
+msgid "Additions"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:157
+msgid "Additional fees added to every FIMS rate quote."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:161
+msgid "Fuel Surcharge (%)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:163
+#, php-format
+msgid "Find surcharge %shere%s. FIMS uses the FedEx Express Surcharge."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:168
+msgid "Flat Fee ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:170
+msgid "Flat amount in USD to add to FIMS calculated rate per order."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:175
+msgid "Package Weight"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:177
+msgid ""
+"Add weight per order for shipping boxes & packing materials.<br>Tag any "
+"products that do not need packaging with <strong>fims-no-pkg</strong> and "
+"they will be ignored<br>for package weight calculations (works well e.g. for "
+"items that may ship in zero-weight tyvek envelopes)."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:181
+msgid "Flat Package Weight (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:183
+msgid ""
+"Flat weight in lbs. to add to order for box and packing material. Any value "
+"here disables below pkg weight options."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:189
+msgid "Pkg Weight Constant (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:191
+msgid ""
+"Weight in lbs. to add to order for box and packing material per each linear "
+"inch of product dimension. Try starting with .01."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:197
+msgid "Min Pkg Weight (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:199
+msgid ""
+"If using Pkg Weight Constant, minimum in lbs for orders that need packaging. "
+"Leave blank for no minimum."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:205
+msgid "Max Pkg Weight (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:207
+msgid ""
+"If using Pkg Weight Constant, maximum in lbs for orders that need packaging. "
+"Leave blank for no maximum."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:212
+msgid "Weight Limits"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:214
+msgid ""
+"FIMS will only be available for orders between the following weights in lbs."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:218
+msgid "Above (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:220
+msgid "Minimum weight of order for FIMS. Leave blank for no lower limit."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:226
+msgid "Below (lbs)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:228
+msgid "Maximum weight of order for FIMS. Leave blank for no upper limit."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:233
+msgid "Order Cost Limits"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:235
+msgid ""
+"FIMS will only be available for orders between the following costs in USD."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:239
+msgid "Above ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:241
+msgid "Minimum cost of order for FIMS. Leave blank for no lower limit."
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:247
+msgid "Below ($)"
+msgstr ""
+
+#: includes/class-wc-shipping-fims.php:249
+msgid "Maximum cost of order for FIMS. Leave blank for no upper limit."
+msgstr ""
+
+#: woocommerce-shipping-fims.php:84
+msgid "Support"
+msgstr ""
+
+#: woocommerce-shipping-fims.php:85
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-shipping-fims.php:95
+#, php-format
+msgid "WooCommerce FIMS Shipping requires %s to be installed and active."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce FIMS Shipping"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://store.plexusllc.com/product/woocommerce-shipping-fims/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add Fedex International Mail shipping to WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Plexus, LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://plexusllc.com"
+msgstr ""

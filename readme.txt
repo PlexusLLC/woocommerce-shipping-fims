@@ -48,7 +48,18 @@ In the search field type “WooCommerce FIMS Shipping” and click Search Plugin
 
 The manual installation method involves downloading the plugin and then uploading it to your webserver via your favorite FTP application. The WordPress codex contains [instructions on how to do this here](https://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
 
+== Frequently Asked Questions ==
+Not yet.
+
+== Screenshots ==
+N/A
+
 == Changelog ==
+
+= 1.0.0 =
+* Initial public release
+
+== Upgrade Notice ==
 
 = 1.0.0 =
 * Initial public release

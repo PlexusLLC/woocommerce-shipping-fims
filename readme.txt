@@ -1,4 +1,4 @@
-=== WooCommerce FIMS Shipping ===
+=== FIMS Shipping for WooCommerce ===
 Contributors: (plexusllc, pjv)
 Donate link: https://store.plexusllc.com/product/woocommerce-shipping-fims/
 Tags: woocommerce, shipping

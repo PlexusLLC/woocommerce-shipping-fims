@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: WooCommerce FIMS Shipping
- * Plugin URI: https://wordpress.org/plugins/woocommerce-fims-shipping
+ * Plugin Name: FIMS Shipping for WooCommerce
+ * Plugin URI: https://wordpress.org/plugins/fims-shipping-for-woocommerce
  * Description: Add Fedex International Mail shipping to WooCommerce.
  * Author: Plexus, LLC
  * Text Domain: woocommerce-shipping-fims

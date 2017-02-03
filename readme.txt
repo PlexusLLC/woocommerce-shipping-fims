@@ -26,7 +26,7 @@ This WooCommerce Shipping Zone aware plugin includes:
 
 * Apply FIMS rate in 1/10 pound increments for maximum accuracy
 * Limit the FIMS rate to specified minimum / maximum charge
-* Customize the shipping rate label your customer sees
+* Customize the shipping rate description your customer sees for FIMS
 
 Upgrade to the [PREMIUM version](https://store.plexusllc.com/product/woocommerce-shipping-fims/) for these additional features:
 

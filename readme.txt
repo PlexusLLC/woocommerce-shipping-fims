@@ -4,7 +4,7 @@ Donate link: https://store.plexusllc.com/product/woocommerce-shipping-fims/
 Tags: woocommerce, shipping
 Requires at least: 4.6
 Tested up to: 4.7.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL-3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ Adds Fedex International MailService shipping method to WooCommerce.
 
 == Description ==
 
-If you ship relatively inexpensive, light-weight products (think t-shirts, coffee mugs, posters, CD’s, etc.) from the US to international markets and you are not using FedEx International MailService (FIMS), get ready to have your international sales revolutionized.
+If you ship relatively inexpensive, light-weight products (think t-shirts, coffee mugs, posters, CD’s, etc.) from the US to international markets and you are not using [FedEx International MailService](http://www.fedex.com/us/international-mail-service/) (FIMS), get ready to have your international sales revolutionized.
 
 Here’s the description from the FedEx website:
 
@@ -22,6 +22,10 @@ What that boils down to is really low rates (like a few dollars for sub-1lb pack
 
 But getting the WooCommerce cart calculator to show your customer the right shipping rate for FIMS can be a little tricky since your contracted rate is weight-based but also based on the aggregate of all the FIMS packages you ship on a given day (not per package). So you have to do some tweaking of the rate calculation if you want to be able to show your customer the lowest possible rate without you losing money on the shipping.
 
+= Important Note =
+FIMS is a contract-only service from FedEx. You must request to enroll in the service through your FedEx representative before you will be able to ship via FIMS and make use of this plugin.
+
+= Features =
 This WooCommerce Shipping Zone aware plugin includes:
 
 * Apply FIMS rate in 1/10 pound increments for maximum accuracy
@@ -56,10 +60,8 @@ N/A
 
 == Changelog ==
 
-= 1.0.0 =
-* Initial public release
-
-== Upgrade Notice ==
+= 1.0.1 =
+* Update readme with information about contracting FIMS with FedEx
 
 = 1.0.0 =
 * Initial public release

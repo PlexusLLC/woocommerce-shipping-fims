@@ -6,7 +6,7 @@
  * Author: Plexus, LLC
  * Text Domain: woocommerce-shipping-fims
  * Domain Path: /lang
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author URI: http://plexusllc.com
  * Copyright: © 2017 Plexus, LLC (email : plugins@plexusllc.com)
  * License: GNU General Public License v3.0
@@ -16,7 +16,7 @@
 if ( !defined( 'ABSPATH' ) ) exit;
 
 class WC_Shipping_FIMS_Init {
-  public $version = '1.0.0';
+  public $version = '1.0.1';
 
   /** @var object Class Instance */
   private static $instance;

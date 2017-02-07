@@ -34,7 +34,6 @@ class WC_Shipping_FIMS_Init {
   public function __construct() {
     if ( class_exists( 'WC_Shipping_Method' ) ) {
       add_action( 'init', array( $this, 'load_textdomain' ) );
-      add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), array( $this, 'plugin_links' ) );
       add_action( 'woocommerce_shipping_init', array( $this, 'includes' ) );
       add_filter( 'woocommerce_shipping_methods', array( $this, 'add_method' ) );
       add_action( 'admin_notices', array( $this, 'environment_check' ) );      
@@ -74,18 +73,6 @@ class WC_Shipping_FIMS_Init {
    */
   public function load_textdomain() {
     load_plugin_textdomain( 'woocommerce-shipping-fims', FALSE, basename( dirname( __FILE__ ) ) . '/lang/' );
-  }
-
-  /**
-   * Plugin page links
-   */
-  public function plugin_links( $links ) {
-    $plugin_links = array(
-      '<a href="#">' . __( 'Support', 'woocommerce-shipping-fims' ) . '</a>',
-      '<a href="#">' . __( 'Docs', 'woocommerce-shipping-fims' ) . '</a>',
-    );
-
-    return array_merge( $plugin_links, $links );
   }
 
   /**
